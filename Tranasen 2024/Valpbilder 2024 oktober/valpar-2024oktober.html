@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tranåsens Kennel</title>
+    <meta charset="UTF-8" />
+    <style>
+      body {
+        background-color: #9d6c41;
+        color: #ffffff;
+        font-family: "Comic Sans MS";
+        margin: 0;
+        padding: 0;
+      }
+      a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+      a:visited {
+        color: #cccccc;
+      }
+      a:active {
+        color: #ffffff;
+      }
+      .center {
+        text-align: center;
+      }
+      .large-text {
+        font-size: 20px;
+      }
+      .small-text {
+        font-size: 10px;
+      }
+      .image-row-puppies {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 20px 0;
+		  width: 100%;
+		  height: auto;
+      }
+      .image-row-parents {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px 0;
+        padding: 20px;
+      }
+      .image-container {
+        margin-bottom: 10px;
+        text-align: center;
+      }
+	.image-container img {
+        width: 50%;
+        height: auto;
+        box-shadow: 0px 1px 1px 5px;
+      }
+		/* Föräldrabild 1 */
+      .parent-image-1 {
+        width: 400px;
+        height: auto;
+        object-fit: cover;
+		box-shadow: 0px 1px 1px 5px;
+      }
+      /* Föräldrabild 2 */
+      .parent-image-2 {
+        width: auto;
+        height: 500px;
+        object-fit: cover;
+        box-shadow: 0px 1px 1px 5px;
+      }
+      /* Valpbilder */
+
+      /* Responsiv design för mobil */
+      @media (max-width: 768px) {
+        .image-row-parents {
+          flex-direction: column;
+        }
+        .image-container img {
+          width: 90%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center">
+      <p class="large-text">
+        Gula & Svarta valpar födda 12 oktober 2024<br />
+        <span class="small-text">Yellow & Black puppies born October 2024</span>
+      </p>
+      <p class="large-text"><a href="/valpar.html">Valpsidan</a></p>
+
+      <!-- Föräldrarna -->
+      <div class="image-row-parents">
+        <div>
+          <img src="./SE U(U)CH NZ CH Blackhill Turn Me Loose.jpeg" alt="SE U(U)CH NZ CH Blackhill Turn Me Loose" class="parent-image-1" />
+          <h2>SE U(U)CH NZ CH Blackhill Turn Me Loose</h2>
+        </div>
+        <div>
+          <img src="/Hundar/Tranåsens soft as dark duchesse chess/blackcascabel-april2013-1.jpg" alt="Tranåsens Soft As Dark Duchesse" class="parent-image-2" />
+          <h2>Tranåsens Soft As Dark Duchesse</h2>
+        </div>
+      </div>
+<hr style="width: 80%">
+      <!-- Valpbilder -->
+      <div class="image-row-puppies">
+		  <h1>Gula & Svarta valpar födda 12 oktober 2024</h1>
+        <div class="image-container">
+          <img src="/Tranasen 2024/Valpbilder 2024 oktober/Valpbilder 2024 oktober/Valpbilder2024Oktober-1.jpg" alt="Valp 1" />
+        </div>
+        <div class="image-container">
+          <img src="/Tranasen 2024/Valpbilder 2024 oktober/Valpbilder 2024 oktober/Valpbilder2024Oktober-2.jpg" alt="Valp 2" />
+        </div>
+        <div class="image-container">
+          <img src="/Tranasen 2024/Valpbilder 2024 oktober/Valpbilder 2024 oktober/Valpbilder2024Oktober-3.jpg" alt="Valp 3" />
+        </div>
+        <div class="image-container">
+          <img src="/Tranasen 2024/Valpbilder 2024 oktober/Valpbilder 2024 oktober/Valpbilder2024Oktober-4.jpg" alt="Valp 4" />
+        </div>
+        <div class="image-container">
+          <img src="/Tranasen 2024/Valpbilder 2024 oktober/Valpbilder 2024 oktober/Valpbilder2024Oktober-5.jpg" alt="Valp 5" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

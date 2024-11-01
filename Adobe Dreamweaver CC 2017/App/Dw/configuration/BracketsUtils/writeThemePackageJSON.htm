@@ -1,0 +1,35 @@
+<!-- Copyright 2015 Adobe Systems Incorporated and its licensors. All rights reserved. -->
+
+<HTML>
+
+<HEAD>
+
+<TITLE>JSON parser</TITLE>
+
+<script type="text/javascript" src="json2.js"></script>    
+<script type="text/javascript" src="writeThemePackageJSON.js"></script>    
+
+<SCRIPT LANGUAGE="javascript">
+        
+// Don't require syncing the DOM during File Save
+function isDOMRequired()
+{
+  return false;
+}
+
+function receiveArguments()
+{
+    packageJSONFile = arguments[0];
+    JSONString = arguments[1];
+    newThemeName = arguments[2];
+    newThemeTitle = arguments[3];
+}
+    
+</SCRIPT>
+
+</HEAD>
+
+<BODY onLoad="writeThemePackageJSONFile()">
+</BODY>
+
+</HTML>

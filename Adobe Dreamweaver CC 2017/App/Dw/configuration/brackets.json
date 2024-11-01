@@ -1,0 +1,19 @@
+{
+    "themes.theme": "dark-theme",
+    "noDistractions": true,
+    "healthData.healthDataTracking": false,
+    "findInFiles.nodeSearch": false,
+    "highlightMatches": true,
+    "dragDropText": true,
+	"showCodeHints": true,
+    "closeTags": {
+        "whenClosing": false,
+        "whenOpening": true,
+        "indentTags": []
+    },
+	"smartIndent": true,
+	"useTabChar": true,
+    "spaceUnits": 4,
+	"tabSize": 4,
+    "code-folding.minFoldSize": 2
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+        <assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1">
+        <assemblyIdentity type="win32" name="cef" version="1.0.0.0" />
+<file name="libcef.dll"/>
+<file name="libEGL.dll"/>
+<file name="libGLESv2.dll"/>
+<file name="d3dcompiler_47.dll"/>
+</assembly>

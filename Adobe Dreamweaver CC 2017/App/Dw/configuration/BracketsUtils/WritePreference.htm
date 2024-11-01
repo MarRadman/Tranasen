@@ -1,0 +1,33 @@
+<!-- Copyright 2015 Adobe Systems Incorporated and its licensors. All rights reserved. -->
+
+<HTML>
+
+<HEAD>
+
+<TITLE>JSON parser</TITLE>
+
+<script type="text/javascript" src="json2.js"></script>    
+<script type="text/javascript" src="WritePreference.js"></script>    
+
+<SCRIPT LANGUAGE="javascript">
+        
+// Don't require syncing the DOM during File Save
+function isDOMRequired()
+{
+  return false;
+}
+
+function receiveArguments()
+{
+    prefsFileName = arguments[0];
+    JSONString = arguments[1];
+}
+    
+</SCRIPT>
+
+</HEAD>
+
+<BODY onLoad="setPreference()">
+</BODY>
+
+</HTML>

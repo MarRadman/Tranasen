@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tranåsens Kennel</title>
+
+    <style type="text/css">
+        body {
+            background-color: #9D6C41;
+            color: #562222;
+            background-image: url('bgr-huv2.jpg');
+            scrollbar-base-color: #9D6C41;
+            scrollbar-track-color: #9D6C41;
+            scrollbar-arrow-color: #9D6C41;
+        }
+		a {
+            color: inherit; /* This will inherit the color from its parent (body) */
+            text-decoration: none; /* Optional: Removes underline from links */
+        }
+    </style>
+
+    <script>
+        function reloadPage(init) {
+            if (init === true) {
+                if (navigator.appName === "Netscape" && parseInt(navigator.appVersion) === 4) {
+                    document.MM_pgW = innerWidth;
+                    document.MM_pgH = innerHeight;
+                    onresize = reloadPage;
+                }
+            } else if (innerWidth !== document.MM_pgW || innerHeight !== document.MM_pgH) {
+                location.reload();
+            }
+        }
+        reloadPage(true);
+    </script>
+</head>
+
+<body>
+
+    <table width="750" border="0" align="center">
+        <tr>
+            <td>
+                <div align="center">
+                    <p><img src="trans-tikar.gif" width="299" height="61"></p>
+                    <p>&nbsp;</p>
+                    <p><font face="Comic Sans MS"><i><font size="4"><a href="Maggie.html">Peter's Gang One More Time</a></font></i></font></p>
+                    <p><font face="Comic Sans MS"><i><font size="4"><a href="Grace.html">Peter's Gang Grace Kelly (Jag har flyttat)</a></font></i></font></p>
+                    <p><font face="Comic Sans MS"><i><font size="4"><a href="Lola.html">Peter's Gang Incantation</a></font></i></font></p>
+                    <p><font face="Comic Sans MS"><i><font size="4"><a href="kookie.html">Tranåsens Chocolate Nougate Kookie</a></font></i></font></p>
+                    <p><font face="Comic Sans MS"><i><font size="4"><a href="Chess.html">Tranåsens Soft As Dark Duchesse</a></font></i></font></p>
+                    <p><font face="Comic Sans MS" size="4"><a href="chocolatedoublenougat.html"><i>Tranåsens Chocolate Double Nougat</i></a></font></p>
+                    <!-- <p><font face="Comic Sans MS" size="4"><i><a href="blackcascabel.html">Tranåsens Black Cascabel</a></i></font></p> -->
+                    <p>&nbsp;</p>
+                    <p><a href="start.html"><img src="svartgalopp2.gif" width="60" height="32" border="0"></a></p>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

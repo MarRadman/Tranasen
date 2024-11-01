@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+	<Payload adobeCode="{EE2A0AA8-0386-11E5-8603-BC82F5DB1A72}">
+		<!-- defaultAdobeCode for development use. -->
+		<Data key="defaultAdobeCode">Dreamweaver-Installer-AdobeCode</Data>
+		<!-- Will be filled in from productinfo.xml, at start of installer build -->
+		<Data key="LicensingCode">V7{}Dreamweaver-17-Win-GM</Data>
+		<Data key="BridgeTalkCode">/adobe/bridgetalk/dreamweaver-17.0.64</Data>
+		<Data key="APPLICATION_CUSTOMIZATION_DATA">SuppressSerialWF</Data>
+		<Data key="AMTConfigPath"></Data>
+		<Data key="DefaultDriverPayload">{F2321021-4348-11E4-B1DF-BDB415F23EC6}</Data>
+		<Data key="InstallDate"></Data>
+		<Data key="driverAMTConfigPath"></Data>
+		<Data key="driverLEID">V7{}Dreamweaver-17-Win-GM</Data>
+		<Data key="installedLanguages"></Data>
+	</Payload>
+	<Other adobeCode="V7{}Dreamweaver-17-Win-GM">
+		<!-- Will be filled in from productinfo.xml, at start of installer build -->
+		<Data key="LicensingCode">V7{}Dreamweaver-17-Win-GM</Data>
+		<Data key="EPIC_APP">Adobe Dreamweaver CC 2017</Data>
+		<Data key="EPIC_APP_192">Adobe Dreamweaver CC 2017</Data>
+		<!-- Note: This is a win-only serial -->
+		<Data key="TrialSerialNumber">979087003748150750706817</Data>
+		<Data key="PayloadCode">{EE2A0AA8-0386-11E5-8603-BC82F5DB1A72}</Data>
+	</Other>
+	<Other adobeCode="/adobe/bridgetalk/dreamweaver-17.0.64">
+		<Data key="Specifier">dreamweaver-17.0.64</Data>
+		<Data key="ExecutableBasename">Dreamweaver</Data>
+		<Data key="DisplayName">Adobe Dreamweaver CC 2017</Data>
+		<Data key="WindowClassName">_macr_dreamweaver_frame_window_</Data>
+	</Other>
+</Configuration>
