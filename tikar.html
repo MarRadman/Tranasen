@@ -1,64 +1,168 @@
 <!DOCTYPE html>
 <html lang="sv">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tranåsens Kennel</title>
+    <style>
+      body {
+        background-color: #9d6c41;
+        color: #562222;
+        background-image: url("bgr-huv2.jpg");
+        scrollbar-color: #9d6c41 #9d6c41;
+        scrollbar-width: thin;
+        font-family: "Comic Sans MS", sans-serif;
+        margin: 0;
+        padding: 0;
+      }
 
-    <style type="text/css">
-        body {
-            background-color: #9D6C41;
-            color: #562222;
-            background-image: url('bgr-huv2.jpg');
-            scrollbar-base-color: #9D6C41;
-            scrollbar-track-color: #9D6C41;
-            scrollbar-arrow-color: #9D6C41;
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .centered {
+        text-align: center;
+      }
+
+      .dog-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 30px;
+      }
+
+      .dog-container {
+        flex: 1 1 100%;
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .dog-image {
+        margin-top: 5%;
+        width: 90%;
+        height: auto;
+        margin-bottom: 5px;
+        border-radius: 2%;
+      }
+
+      .dog-caption {
+        font-style: italic;
+      }
+
+      .spacer {
+        height: 20px;
+      }
+
+      @media (min-width: 600px) {
+        .dog-container {
+          flex: 1 1 50%;
+          max-width: 50%;
         }
-		a {
-            color: inherit; /* This will inherit the color from its parent (body) */
-            text-decoration: none; /* Optional: Removes underline from links */
+      }
+
+      @media (min-width: 1024px) {
+        .dog-container {
+          flex: 1 1 25%;
+          max-width: 25%;
         }
+      }
     </style>
+  </head>
 
-    <script>
-        function reloadPage(init) {
-            if (init === true) {
-                if (navigator.appName === "Netscape" && parseInt(navigator.appVersion) === 4) {
-                    document.MM_pgW = innerWidth;
-                    document.MM_pgH = innerHeight;
-                    onresize = reloadPage;
-                }
-            } else if (innerWidth !== document.MM_pgW || innerHeight !== document.MM_pgH) {
-                location.reload();
-            }
-        }
-        reloadPage(true);
-    </script>
-</head>
+  <body>
+    <div class="centered">
+      <div class="dog-section">
+        <div class="dog-container">
+          <a
+            href="Tranasen 2024/Tikar/Tranasens Super Nova/Tranasens Super Nova.html">
+            <img
+              src="/Tranasen 2024/Tikar/Tranasens Super Nova/TranasenSuperNova2.jpg"
+              alt="Tranåsens Marvelous Super Nova"
+              class="dog-image" />
+            <div class="dog-caption">Tranåsens Marvelous Super Nova</div>
+          </a>
+        </div>
 
-<body>
+        <div class="dog-container">
+          <a href="Maggie.html">
+            <img
+              src="Hundar/Maggie/Peter's Gang 2024.jpg"
+              alt="Peter's Gang One More Time"
+              class="dog-image" />
+            <div class="dog-caption">Peter's Gang One More Time</div>
+          </a>
+        </div>
 
-    <table width="750" border="0" align="center">
-        <tr>
-            <td>
-                <div align="center">
-                    <p><img src="trans-tikar.gif" width="299" height="61"></p>
-                    <p>&nbsp;</p>
-                    <p><font face="Comic Sans MS"><i><font size="4"><a href="Maggie.html">Peter's Gang One More Time</a></font></i></font></p>
-                    <p><font face="Comic Sans MS"><i><font size="4"><a href="Grace.html">Peter's Gang Grace Kelly (Jag har flyttat)</a></font></i></font></p>
-                    <p><font face="Comic Sans MS"><i><font size="4"><a href="Lola.html">Peter's Gang Incantation</a></font></i></font></p>
-                    <p><font face="Comic Sans MS"><i><font size="4"><a href="kookie.html">Tranåsens Chocolate Nougate Kookie</a></font></i></font></p>
-                    <p><font face="Comic Sans MS"><i><font size="4"><a href="Chess.html">Tranåsens Soft As Dark Duchesse</a></font></i></font></p>
-                    <p><font face="Comic Sans MS" size="4"><a href="chocolatedoublenougat.html"><i>Tranåsens Chocolate Double Nougat</i></a></font></p>
-                    <!-- <p><font face="Comic Sans MS" size="4"><i><a href="blackcascabel.html">Tranåsens Black Cascabel</a></i></font></p> -->
-                    <p>&nbsp;</p>
-                    <p><a href="start.html"><img src="svartgalopp2.gif" width="60" height="32" border="0"></a></p>
-                </div>
-            </td>
-        </tr>
-    </table>
+        <div class="dog-container">
+          <a href="Grace.html">
+            <img
+              src="Hundar/Grace Kelly/received_416376325918583.jpeg"
+              alt="Peter's Gang Grace Kelly"
+              class="dog-image" />
+            <div class="dog-caption">
+              Peter's Gang Grace Kelly (Jag har flyttat)
+            </div>
+          </a>
+        </div>
 
-</body>
+        <div class="dog-container">
+          <a href="Lola.html">
+            <img
+              src="Hundar/Lola/received_751162759499803.jpeg"
+              alt="Peter's Gang Incantation"
+              class="dog-image" />
+            <div class="dog-caption">Peter's Gang Incantation</div>
+          </a>
+        </div>
 
+        <div class="dog-container">
+          <a href="kookie.html">
+            <img
+              src="Hundar/Tranåsens Chocolate Nougate Kookie/20210701_094331.jpg"
+              alt="Tranåsens Chocolate Nougate Kookie"
+              class="dog-image" />
+            <div class="dog-caption">Tranåsens Chocolate Nougate Kookie</div>
+          </a>
+        </div>
+
+        <div class="dog-container">
+          <a href="Chess.html">
+            <img
+              src="Hundar/Tranåsens soft as dark duchesse chess/blackcascabel-april2013-1.jpg"
+              alt="Tranåsens Soft As Dark Duchesse"
+              class="dog-image" />
+            <div class="dog-caption">Tranåsens Soft As Dark Duchesse</div>
+          </a>
+        </div>
+
+        <div class="dog-container">
+          <a href="chocolatedoublenougat.html">
+            <img
+              src="chocolatedoublenougat2.jpg"
+              alt="Tranåsens Chocolate Double Nougat"
+              class="dog-image" />
+            <div class="dog-caption">Tranåsens Chocolate Double Nougat</div>
+          </a>
+        </div>
+      </div>
+
+      <div class="spacer"></div>
+
+      <p>
+        <a href="start.html">
+          <img
+            src="svartgalopp2.gif"
+            alt="Tillbaka till start"
+            width="60"
+            height="32" />
+        </a>
+      </p>
+    </div>
+  </body>
 </html>
